@@ -1,0 +1,29 @@
+d* = density/mass function
+p* = cumulative distribution function
+q* = quantile function
+r* = random variate generation
+
+Beta		 	dbeta
+Binomial/Bernoulli	dbinom
+Cauchy 			dcauchy
+Chi-squared 		dchisq
+Exponential 		dexp
+F	 		df
+Gamma		 	dgamma
+Geometric 		dgeom
+Hypergeometric 		dhyper
+Logistic		dlogis
+Log-normal		dlnorm
+Multinomial 		dmultinom
+Negative binomial 	dnbinom
+Normal/Gaussian 	dnorm
+Poisson 		dpois
+Student's t 		dt
+Uniform		 	dunif
+
+
+
+
+
+
+

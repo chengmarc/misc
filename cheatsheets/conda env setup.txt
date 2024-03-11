@@ -1,0 +1,11 @@
+conda env list					#list all environment
+conda activate (env name)			#activate selected environment
+conda deactivate 				#deactivate current environment
+conda create -n (env name) python=3.x.x		#create new environment
+conda remove -n (env name) --al			#delete exisiting environment
+
+
+[setup default interpreter for Windows]
+search "environment variables" - environment variables - add below directory to "Path"
+C:\Users\user_name\miniconda3\envs\(env name)
+C:\Users\user_name\miniconda3\envs\(env name)\Scripts

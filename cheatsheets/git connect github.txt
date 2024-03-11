@@ -1,0 +1,8 @@
+[create new ssh key]		ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+[paste ssh key to github]	cat < /d/Repository/github-ssh.pub
+[connect to github]		eval "$(ssh-agent -s)"
+				ssh-add /d/Repository/github-ssh
+				ssh -T git@github.com
+
+[start bash in specific directory]	short cut - properties - start in - directory (no quotation)
+[run ssh automatically when starting]	create ".profile" under %USERPROFILE% - put in the above code
