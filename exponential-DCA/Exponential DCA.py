@@ -18,8 +18,8 @@ from tqdm import tqdm
 
 # %%
 def prepare_data():
-    
-    data = pd.read_csv('btc.csv')
+
+    data = pd.read_csv('https://raw.githubusercontent.com/coinmetrics/data/refs/heads/master/csv/btc.csv')
     data = data[365*2:-1]
 
     data['Date'] = pd.to_datetime(data['time'])
